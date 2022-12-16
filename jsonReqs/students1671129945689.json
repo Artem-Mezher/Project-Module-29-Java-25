@@ -1,0 +1,68 @@
+[
+  {
+    "studentName": "Petrov",
+    "universityId": "0001-high",
+    "course": 1,
+    "avgScore": 5.0
+  },
+  {
+    "studentName": "Alekseev",
+    "universityId": "0001-high",
+    "course": 1,
+    "avgScore": 5.0
+  },
+  {
+    "studentName": "Sokolov",
+    "universityId": "0004-high",
+    "course": 1,
+    "avgScore": 4.8
+  },
+  {
+    "studentName": "Ivanov",
+    "universityId": "0001-high",
+    "course": 3,
+    "avgScore": 4.8
+  },
+  {
+    "studentName": "Vasiliev",
+    "universityId": "0001-high",
+    "course": 4,
+    "avgScore": 4.7
+  },
+  {
+    "studentName": "Kozlov",
+    "universityId": "0002-high",
+    "course": 2,
+    "avgScore": 4.6
+  },
+  {
+    "studentName": "Ignatiev",
+    "universityId": "0003-high",
+    "course": 4,
+    "avgScore": 4.3
+  },
+  {
+    "studentName": "Fedorov",
+    "universityId": "0002-high",
+    "course": 3,
+    "avgScore": 4.2
+  },
+  {
+    "studentName": "Ivanov",
+    "universityId": "0002-high",
+    "course": 2,
+    "avgScore": 4.0
+  },
+  {
+    "studentName": "Vitaliev",
+    "universityId": "0001-high",
+    "course": 2,
+    "avgScore": 4.0
+  },
+  {
+    "studentName": "Sidiriv",
+    "universityId": "0004-high",
+    "course": 2,
+    "avgScore": 3.9
+  }
+]

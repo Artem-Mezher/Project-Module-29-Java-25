@@ -1,0 +1,51 @@
+[
+  {
+    "universityId": "0002-high",
+    "universityName": "Kyrgyz National Technical University",
+    "universityShortName": "POLITECH",
+    "foundation": 1960,
+    "profile": "PHYSICS"
+  },
+  {
+    "universityId": "0007-high",
+    "universityName": "Kyrgyz National University",
+    "universityShortName": "KNU",
+    "foundation": 1966,
+    "profile": "MATHEMATICS"
+  },
+  {
+    "universityId": "0003-high",
+    "universityName": "Kyrgyz Medical University",
+    "universityShortName": "KMU",
+    "foundation": 1975,
+    "profile": "MEDICINE"
+  },
+  {
+    "universityId": "0005-high",
+    "universityName": "Osh Medical University",
+    "universityShortName": "OMU",
+    "foundation": 1979,
+    "profile": "MEDICINE"
+  },
+  {
+    "universityId": "0004-high",
+    "universityName": "Kyrgyz Medicine Academy",
+    "universityShortName": "KMA",
+    "foundation": 1980,
+    "profile": "MEDICINE"
+  },
+  {
+    "universityId": "0001-high",
+    "universityName": "Kyrgyz Russian Slavic University",
+    "universityShortName": "KRSU",
+    "foundation": 1992,
+    "profile": "PHYSICS"
+  },
+  {
+    "universityId": "0006-high",
+    "universityName": "Bishkek State University",
+    "universityShortName": "BSU",
+    "foundation": 2003,
+    "profile": "LINGUISTICS"
+  }
+]

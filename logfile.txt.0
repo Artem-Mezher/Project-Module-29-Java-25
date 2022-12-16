@@ -1,0 +1,840 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-12-14T19:22:04.420200600Z</date>
+  <millis>1671045724420</millis>
+  <nanos>200600</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application started, Logger configured</message>
+</record>
+<record>
+  <date>2022-12-14T19:22:04.543202500Z</date>
+  <millis>1671045724543</millis>
+  <nanos>202500</nanos>
+  <sequence>1</sequence>
+  <logger>io.XlsReader</logger>
+  <level>INFO</level>
+  <class>io.XlsReader</class>
+  <method>readXlsUniversities</method>
+  <thread>1</thread>
+  <message>Excel reading started</message>
+</record>
+<record>
+  <date>2022-12-14T19:22:05.979199400Z</date>
+  <millis>1671045725979</millis>
+  <nanos>199400</nanos>
+  <sequence>2</sequence>
+  <logger>io.XlsReader</logger>
+  <level>INFO</level>
+  <class>io.XlsReader</class>
+  <method>readXlsUniversities</method>
+  <thread>1</thread>
+  <message>Excel reading finished successfully</message>
+</record>
+<record>
+  <date>2022-12-14T19:22:05.987201300Z</date>
+  <millis>1671045725987</millis>
+  <nanos>201300</nanos>
+  <sequence>3</sequence>
+  <logger>io.XlsReader</logger>
+  <level>INFO</level>
+  <class>io.XlsReader</class>
+  <method>readXlsStudents</method>
+  <thread>1</thread>
+  <message>Excel reading started</message>
+</record>
+<record>
+  <date>2022-12-14T19:22:06.074199100Z</date>
+  <millis>1671045726074</millis>
+  <nanos>199100</nanos>
+  <sequence>4</sequence>
+  <logger>io.XlsReader</logger>
+  <level>INFO</level>
+  <class>io.XlsReader</class>
+  <method>readXlsStudents</method>
+  <thread>1</thread>
+  <message>Excel reading finished successfully</message>
+</record>
+<record>
+  <date>2022-12-14T19:22:06.077199800Z</date>
+  <millis>1671045726077</millis>
+  <nanos>199800</nanos>
+  <sequence>5</sequence>
+  <logger>util.StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>util.StatisticsUtil</class>
+  <method>createStatistics</method>
+  <thread>1</thread>
+  <message>Statistics module started</message>
+</record>
+<record>
+  <date>2022-12-14T19:22:06.097200900Z</date>
+  <millis>1671045726097</millis>
+  <nanos>200900</nanos>
+  <sequence>6</sequence>
+  <logger>util.StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>util.StatisticsUtil</class>
+  <method>createStatistics</method>
+  <thread>1</thread>
+  <message>Statistics module finished with 4 statistical objects</message>
+</record>
+<record>
+  <date>2022-12-14T19:22:06.100201300Z</date>
+  <millis>1671045726100</millis>
+  <nanos>201300</nanos>
+  <sequence>7</sequence>
+  <logger>io.XlsWriter</logger>
+  <level>INFO</level>
+  <class>io.XlsWriter</class>
+  <method>writeXlsStatistics</method>
+  <thread>1</thread>
+  <message>Excel writing started</message>
+</record>
+<record>
+  <date>2022-12-14T19:22:06.423415200Z</date>
+  <millis>1671045726423</millis>
+  <nanos>415200</nanos>
+  <sequence>8</sequence>
+  <logger>io.XlsWriter</logger>
+  <level>INFO</level>
+  <class>io.XlsWriter</class>
+  <method>writeXlsStatistics</method>
+  <thread>1</thread>
+  <message>Excel writing finished successfully</message>
+</record>
+<record>
+  <date>2022-12-14T19:22:06.427416700Z</date>
+  <millis>1671045726427</millis>
+  <nanos>416700</nanos>
+  <sequence>9</sequence>
+  <logger>io.XmlWriter</logger>
+  <level>INFO</level>
+  <class>io.XmlWriter</class>
+  <method>generateXmlReq</method>
+  <thread>1</thread>
+  <message>XML marshalling started</message>
+</record>
+<record>
+  <date>2022-12-14T19:22:06.438240800Z</date>
+  <millis>1671045726438</millis>
+  <nanos>240800</nanos>
+  <sequence>10</sequence>
+  <logger>io.XmlWriter</logger>
+  <level>SEVERE</level>
+  <class>io.XmlWriter</class>
+  <method>generateXmlReq</method>
+  <thread>1</thread>
+  <message>XML marshalling failed</message>
+  <exception>
+    <message>javax.xml.bind.JAXBException: Implementation of JAXB-API has not been found on module path or classpath.
+ - with linked exception:
+[java.lang.ClassNotFoundException: com.sun.xml.internal.bind.v2.ContextFactory]</message>
+    <frame>
+      <class>javax.xml.bind.ContextFinder</class>
+      <method>newInstance</method>
+      <line>232</line>
+    </frame>
+    <frame>
+      <class>javax.xml.bind.ContextFinder</class>
+      <method>find</method>
+      <line>375</line>
+    </frame>
+    <frame>
+      <class>javax.xml.bind.JAXBContext</class>
+      <method>newInstance</method>
+      <line>691</line>
+    </frame>
+    <frame>
+      <class>javax.xml.bind.JAXBContext</class>
+      <method>newInstance</method>
+      <line>632</line>
+    </frame>
+    <frame>
+      <class>io.XmlWriter</class>
+      <method>generateXmlReq</method>
+      <line>28</line>
+    </frame>
+    <frame>
+      <class>Main</class>
+      <method>main</method>
+      <line>60</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2022-12-14T19:22:06.443241Z</date>
+  <millis>1671045726443</millis>
+  <nanos>241000</nanos>
+  <sequence>11</sequence>
+  <logger>io.JsonWriter</logger>
+  <level>INFO</level>
+  <class>io.JsonWriter</class>
+  <method>writeJsonReq</method>
+  <thread>1</thread>
+  <message>JSON writing started</message>
+</record>
+<record>
+  <date>2022-12-14T19:22:06.446241700Z</date>
+  <millis>1671045726446</millis>
+  <nanos>241700</nanos>
+  <sequence>12</sequence>
+  <logger>io.JsonWriter</logger>
+  <level>INFO</level>
+  <class>io.JsonWriter</class>
+  <method>writeJsonReq</method>
+  <thread>1</thread>
+  <message>Directory created successfully</message>
+</record>
+<record>
+  <date>2022-12-14T19:22:06.550525Z</date>
+  <millis>1671045726550</millis>
+  <nanos>525000</nanos>
+  <sequence>13</sequence>
+  <logger>io.JsonWriter</logger>
+  <level>INFO</level>
+  <class>io.JsonWriter</class>
+  <method>writeJsonReq</method>
+  <thread>1</thread>
+  <message>JSON writing finished successfully</message>
+</record>
+<record>
+  <date>2022-12-14T19:22:06.551524600Z</date>
+  <millis>1671045726551</millis>
+  <nanos>524600</nanos>
+  <sequence>14</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application finished</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-12-15T18:40:01.090394600Z</date>
+  <millis>1671129601090</millis>
+  <nanos>394600</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application started, Logger configured</message>
+</record>
+<record>
+  <date>2022-12-15T18:40:01.345681600Z</date>
+  <millis>1671129601345</millis>
+  <nanos>681600</nanos>
+  <sequence>1</sequence>
+  <logger>io.XlsReader</logger>
+  <level>INFO</level>
+  <class>io.XlsReader</class>
+  <method>readXlsUniversities</method>
+  <thread>1</thread>
+  <message>Excel reading started</message>
+</record>
+<record>
+  <date>2022-12-15T18:40:03.297523400Z</date>
+  <millis>1671129603297</millis>
+  <nanos>523400</nanos>
+  <sequence>2</sequence>
+  <logger>io.XlsReader</logger>
+  <level>INFO</level>
+  <class>io.XlsReader</class>
+  <method>readXlsUniversities</method>
+  <thread>1</thread>
+  <message>Excel reading finished successfully</message>
+</record>
+<record>
+  <date>2022-12-15T18:40:03.308066100Z</date>
+  <millis>1671129603308</millis>
+  <nanos>66100</nanos>
+  <sequence>3</sequence>
+  <logger>io.XlsReader</logger>
+  <level>INFO</level>
+  <class>io.XlsReader</class>
+  <method>readXlsStudents</method>
+  <thread>1</thread>
+  <message>Excel reading started</message>
+</record>
+<record>
+  <date>2022-12-15T18:40:03.387533900Z</date>
+  <millis>1671129603387</millis>
+  <nanos>533900</nanos>
+  <sequence>4</sequence>
+  <logger>io.XlsReader</logger>
+  <level>INFO</level>
+  <class>io.XlsReader</class>
+  <method>readXlsStudents</method>
+  <thread>1</thread>
+  <message>Excel reading finished successfully</message>
+</record>
+<record>
+  <date>2022-12-15T18:40:03.393921900Z</date>
+  <millis>1671129603393</millis>
+  <nanos>921900</nanos>
+  <sequence>5</sequence>
+  <logger>util.StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>util.StatisticsUtil</class>
+  <method>createStatistics</method>
+  <thread>1</thread>
+  <message>Statistics module started</message>
+</record>
+<record>
+  <date>2022-12-15T18:40:03.412800300Z</date>
+  <millis>1671129603412</millis>
+  <nanos>800300</nanos>
+  <sequence>6</sequence>
+  <logger>util.StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>util.StatisticsUtil</class>
+  <method>createStatistics</method>
+  <thread>1</thread>
+  <message>Statistics module finished with 4 statistical objects</message>
+</record>
+<record>
+  <date>2022-12-15T18:40:03.416773200Z</date>
+  <millis>1671129603416</millis>
+  <nanos>773200</nanos>
+  <sequence>7</sequence>
+  <logger>io.XlsWriter</logger>
+  <level>INFO</level>
+  <class>io.XlsWriter</class>
+  <method>writeXlsStatistics</method>
+  <thread>1</thread>
+  <message>Excel writing started</message>
+</record>
+<record>
+  <date>2022-12-15T18:40:03.780742800Z</date>
+  <millis>1671129603780</millis>
+  <nanos>742800</nanos>
+  <sequence>8</sequence>
+  <logger>io.XlsWriter</logger>
+  <level>INFO</level>
+  <class>io.XlsWriter</class>
+  <method>writeXlsStatistics</method>
+  <thread>1</thread>
+  <message>Excel writing finished successfully</message>
+</record>
+<record>
+  <date>2022-12-15T18:40:03.787697700Z</date>
+  <millis>1671129603787</millis>
+  <nanos>697700</nanos>
+  <sequence>9</sequence>
+  <logger>io.XmlWriter</logger>
+  <level>INFO</level>
+  <class>io.XmlWriter</class>
+  <method>generateXmlReq</method>
+  <thread>1</thread>
+  <message>XML marshalling started</message>
+</record>
+<record>
+  <date>2022-12-15T18:40:03.800610200Z</date>
+  <millis>1671129603800</millis>
+  <nanos>610200</nanos>
+  <sequence>10</sequence>
+  <logger>io.XmlWriter</logger>
+  <level>SEVERE</level>
+  <class>io.XmlWriter</class>
+  <method>generateXmlReq</method>
+  <thread>1</thread>
+  <message>XML marshalling failed</message>
+  <exception>
+    <message>javax.xml.bind.JAXBException: Implementation of JAXB-API has not been found on module path or classpath.
+ - with linked exception:
+[java.lang.ClassNotFoundException: com.sun.xml.internal.bind.v2.ContextFactory]</message>
+    <frame>
+      <class>javax.xml.bind.ContextFinder</class>
+      <method>newInstance</method>
+      <line>232</line>
+    </frame>
+    <frame>
+      <class>javax.xml.bind.ContextFinder</class>
+      <method>find</method>
+      <line>375</line>
+    </frame>
+    <frame>
+      <class>javax.xml.bind.JAXBContext</class>
+      <method>newInstance</method>
+      <line>691</line>
+    </frame>
+    <frame>
+      <class>javax.xml.bind.JAXBContext</class>
+      <method>newInstance</method>
+      <line>632</line>
+    </frame>
+    <frame>
+      <class>io.XmlWriter</class>
+      <method>generateXmlReq</method>
+      <line>28</line>
+    </frame>
+    <frame>
+      <class>Main</class>
+      <method>main</method>
+      <line>60</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2022-12-15T18:40:03.806783400Z</date>
+  <millis>1671129603806</millis>
+  <nanos>783400</nanos>
+  <sequence>11</sequence>
+  <logger>io.JsonWriter</logger>
+  <level>INFO</level>
+  <class>io.JsonWriter</class>
+  <method>writeJsonReq</method>
+  <thread>1</thread>
+  <message>JSON writing started</message>
+</record>
+<record>
+  <date>2022-12-15T18:40:03.919285900Z</date>
+  <millis>1671129603919</millis>
+  <nanos>285900</nanos>
+  <sequence>12</sequence>
+  <logger>io.JsonWriter</logger>
+  <level>INFO</level>
+  <class>io.JsonWriter</class>
+  <method>writeJsonReq</method>
+  <thread>1</thread>
+  <message>JSON writing finished successfully</message>
+</record>
+<record>
+  <date>2022-12-15T18:40:03.920280800Z</date>
+  <millis>1671129603920</millis>
+  <nanos>280800</nanos>
+  <sequence>13</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application finished</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-12-15T18:53:32.550112500Z</date>
+  <millis>1671130412550</millis>
+  <nanos>112500</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application started, Logger configured</message>
+</record>
+<record>
+  <date>2022-12-15T18:53:32.642493600Z</date>
+  <millis>1671130412642</millis>
+  <nanos>493600</nanos>
+  <sequence>1</sequence>
+  <logger>io.XlsReader</logger>
+  <level>INFO</level>
+  <class>io.XlsReader</class>
+  <method>readXlsUniversities</method>
+  <thread>1</thread>
+  <message>Excel reading started</message>
+</record>
+<record>
+  <date>2022-12-15T18:53:34.097725Z</date>
+  <millis>1671130414097</millis>
+  <nanos>725000</nanos>
+  <sequence>2</sequence>
+  <logger>io.XlsReader</logger>
+  <level>INFO</level>
+  <class>io.XlsReader</class>
+  <method>readXlsUniversities</method>
+  <thread>1</thread>
+  <message>Excel reading finished successfully</message>
+</record>
+<record>
+  <date>2022-12-15T18:53:34.105672200Z</date>
+  <millis>1671130414105</millis>
+  <nanos>672200</nanos>
+  <sequence>3</sequence>
+  <logger>io.XlsReader</logger>
+  <level>INFO</level>
+  <class>io.XlsReader</class>
+  <method>readXlsStudents</method>
+  <thread>1</thread>
+  <message>Excel reading started</message>
+</record>
+<record>
+  <date>2022-12-15T18:53:34.181163900Z</date>
+  <millis>1671130414181</millis>
+  <nanos>163900</nanos>
+  <sequence>4</sequence>
+  <logger>io.XlsReader</logger>
+  <level>INFO</level>
+  <class>io.XlsReader</class>
+  <method>readXlsStudents</method>
+  <thread>1</thread>
+  <message>Excel reading finished successfully</message>
+</record>
+<record>
+  <date>2022-12-15T18:53:34.185138600Z</date>
+  <millis>1671130414185</millis>
+  <nanos>138600</nanos>
+  <sequence>5</sequence>
+  <logger>util.StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>util.StatisticsUtil</class>
+  <method>createStatistics</method>
+  <thread>1</thread>
+  <message>Statistics module started</message>
+</record>
+<record>
+  <date>2022-12-15T18:53:34.200038400Z</date>
+  <millis>1671130414200</millis>
+  <nanos>38400</nanos>
+  <sequence>6</sequence>
+  <logger>util.StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>util.StatisticsUtil</class>
+  <method>createStatistics</method>
+  <thread>1</thread>
+  <message>Statistics module finished with 4 statistical objects</message>
+</record>
+<record>
+  <date>2022-12-15T18:53:34.203018400Z</date>
+  <millis>1671130414203</millis>
+  <nanos>18400</nanos>
+  <sequence>7</sequence>
+  <logger>io.XlsWriter</logger>
+  <level>INFO</level>
+  <class>io.XlsWriter</class>
+  <method>writeXlsStatistics</method>
+  <thread>1</thread>
+  <message>Excel writing started</message>
+</record>
+<record>
+  <date>2022-12-15T18:53:34.609295400Z</date>
+  <millis>1671130414609</millis>
+  <nanos>295400</nanos>
+  <sequence>8</sequence>
+  <logger>io.XlsWriter</logger>
+  <level>INFO</level>
+  <class>io.XlsWriter</class>
+  <method>writeXlsStatistics</method>
+  <thread>1</thread>
+  <message>Excel writing finished successfully</message>
+</record>
+<record>
+  <date>2022-12-15T18:53:34.614258300Z</date>
+  <millis>1671130414614</millis>
+  <nanos>258300</nanos>
+  <sequence>9</sequence>
+  <logger>io.XmlWriter</logger>
+  <level>INFO</level>
+  <class>io.XmlWriter</class>
+  <method>generateXmlReq</method>
+  <thread>1</thread>
+  <message>XML marshalling started</message>
+</record>
+<record>
+  <date>2022-12-15T18:53:34.627171900Z</date>
+  <millis>1671130414627</millis>
+  <nanos>171900</nanos>
+  <sequence>10</sequence>
+  <logger>io.XmlWriter</logger>
+  <level>SEVERE</level>
+  <class>io.XmlWriter</class>
+  <method>generateXmlReq</method>
+  <thread>1</thread>
+  <message>XML marshalling failed</message>
+  <exception>
+    <message>javax.xml.bind.JAXBException: Implementation of JAXB-API has not been found on module path or classpath.
+ - with linked exception:
+[java.lang.ClassNotFoundException: com.sun.xml.internal.bind.v2.ContextFactory]</message>
+    <frame>
+      <class>javax.xml.bind.ContextFinder</class>
+      <method>newInstance</method>
+      <line>232</line>
+    </frame>
+    <frame>
+      <class>javax.xml.bind.ContextFinder</class>
+      <method>find</method>
+      <line>375</line>
+    </frame>
+    <frame>
+      <class>javax.xml.bind.JAXBContext</class>
+      <method>newInstance</method>
+      <line>691</line>
+    </frame>
+    <frame>
+      <class>javax.xml.bind.JAXBContext</class>
+      <method>newInstance</method>
+      <line>632</line>
+    </frame>
+    <frame>
+      <class>io.XmlWriter</class>
+      <method>generateXmlReq</method>
+      <line>28</line>
+    </frame>
+    <frame>
+      <class>Main</class>
+      <method>main</method>
+      <line>60</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2022-12-15T18:53:34.635117800Z</date>
+  <millis>1671130414635</millis>
+  <nanos>117800</nanos>
+  <sequence>11</sequence>
+  <logger>io.JsonWriter</logger>
+  <level>INFO</level>
+  <class>io.JsonWriter</class>
+  <method>writeJsonReq</method>
+  <thread>1</thread>
+  <message>JSON writing started</message>
+</record>
+<record>
+  <date>2022-12-15T18:53:34.763258100Z</date>
+  <millis>1671130414763</millis>
+  <nanos>258100</nanos>
+  <sequence>12</sequence>
+  <logger>io.JsonWriter</logger>
+  <level>INFO</level>
+  <class>io.JsonWriter</class>
+  <method>writeJsonReq</method>
+  <thread>1</thread>
+  <message>JSON writing finished successfully</message>
+</record>
+<record>
+  <date>2022-12-15T18:53:34.764251Z</date>
+  <millis>1671130414764</millis>
+  <nanos>251000</nanos>
+  <sequence>13</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application finished</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-12-16T19:08:25.437136900Z</date>
+  <millis>1671217705437</millis>
+  <nanos>136900</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application started, Logger configured</message>
+</record>
+<record>
+  <date>2022-12-16T19:08:25.531504300Z</date>
+  <millis>1671217705531</millis>
+  <nanos>504300</nanos>
+  <sequence>1</sequence>
+  <logger>io.XlsReader</logger>
+  <level>INFO</level>
+  <class>io.XlsReader</class>
+  <method>readXlsUniversities</method>
+  <thread>1</thread>
+  <message>Excel reading started</message>
+</record>
+<record>
+  <date>2022-12-16T19:08:27.035408100Z</date>
+  <millis>1671217707035</millis>
+  <nanos>408100</nanos>
+  <sequence>2</sequence>
+  <logger>io.XlsReader</logger>
+  <level>INFO</level>
+  <class>io.XlsReader</class>
+  <method>readXlsUniversities</method>
+  <thread>1</thread>
+  <message>Excel reading finished successfully</message>
+</record>
+<record>
+  <date>2022-12-16T19:08:27.043354400Z</date>
+  <millis>1671217707043</millis>
+  <nanos>354400</nanos>
+  <sequence>3</sequence>
+  <logger>io.XlsReader</logger>
+  <level>INFO</level>
+  <class>io.XlsReader</class>
+  <method>readXlsStudents</method>
+  <thread>1</thread>
+  <message>Excel reading started</message>
+</record>
+<record>
+  <date>2022-12-16T19:08:27.130768200Z</date>
+  <millis>1671217707130</millis>
+  <nanos>768200</nanos>
+  <sequence>4</sequence>
+  <logger>io.XlsReader</logger>
+  <level>INFO</level>
+  <class>io.XlsReader</class>
+  <method>readXlsStudents</method>
+  <thread>1</thread>
+  <message>Excel reading finished successfully</message>
+</record>
+<record>
+  <date>2022-12-16T19:08:27.136728600Z</date>
+  <millis>1671217707136</millis>
+  <nanos>728600</nanos>
+  <sequence>5</sequence>
+  <logger>util.StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>util.StatisticsUtil</class>
+  <method>createStatistics</method>
+  <thread>1</thread>
+  <message>Statistics module started</message>
+</record>
+<record>
+  <date>2022-12-16T19:08:27.178450700Z</date>
+  <millis>1671217707178</millis>
+  <nanos>450700</nanos>
+  <sequence>6</sequence>
+  <logger>util.StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>util.StatisticsUtil</class>
+  <method>createStatistics</method>
+  <thread>1</thread>
+  <message>Statistics module finished with 4 statistical objects</message>
+</record>
+<record>
+  <date>2022-12-16T19:08:27.185401Z</date>
+  <millis>1671217707185</millis>
+  <nanos>401000</nanos>
+  <sequence>7</sequence>
+  <logger>io.XlsWriter</logger>
+  <level>INFO</level>
+  <class>io.XlsWriter</class>
+  <method>writeXlsStatistics</method>
+  <thread>1</thread>
+  <message>Excel writing started</message>
+</record>
+<record>
+  <date>2022-12-16T19:08:27.533065900Z</date>
+  <millis>1671217707533</millis>
+  <nanos>65900</nanos>
+  <sequence>8</sequence>
+  <logger>io.XlsWriter</logger>
+  <level>INFO</level>
+  <class>io.XlsWriter</class>
+  <method>writeXlsStatistics</method>
+  <thread>1</thread>
+  <message>Excel writing finished successfully</message>
+</record>
+<record>
+  <date>2022-12-16T19:08:27.537060600Z</date>
+  <millis>1671217707537</millis>
+  <nanos>60600</nanos>
+  <sequence>9</sequence>
+  <logger>io.XmlWriter</logger>
+  <level>INFO</level>
+  <class>io.XmlWriter</class>
+  <method>generateXmlReq</method>
+  <thread>1</thread>
+  <message>XML marshalling started</message>
+</record>
+<record>
+  <date>2022-12-16T19:08:27.546995200Z</date>
+  <millis>1671217707546</millis>
+  <nanos>995200</nanos>
+  <sequence>10</sequence>
+  <logger>io.XmlWriter</logger>
+  <level>SEVERE</level>
+  <class>io.XmlWriter</class>
+  <method>generateXmlReq</method>
+  <thread>1</thread>
+  <message>XML marshalling failed</message>
+  <exception>
+    <message>javax.xml.bind.JAXBException: Implementation of JAXB-API has not been found on module path or classpath.
+ - with linked exception:
+[java.lang.ClassNotFoundException: com.sun.xml.internal.bind.v2.ContextFactory]</message>
+    <frame>
+      <class>javax.xml.bind.ContextFinder</class>
+      <method>newInstance</method>
+      <line>232</line>
+    </frame>
+    <frame>
+      <class>javax.xml.bind.ContextFinder</class>
+      <method>find</method>
+      <line>375</line>
+    </frame>
+    <frame>
+      <class>javax.xml.bind.JAXBContext</class>
+      <method>newInstance</method>
+      <line>691</line>
+    </frame>
+    <frame>
+      <class>javax.xml.bind.JAXBContext</class>
+      <method>newInstance</method>
+      <line>632</line>
+    </frame>
+    <frame>
+      <class>io.XmlWriter</class>
+      <method>generateXmlReq</method>
+      <line>28</line>
+    </frame>
+    <frame>
+      <class>Main</class>
+      <method>main</method>
+      <line>60</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2022-12-16T19:08:27.550967500Z</date>
+  <millis>1671217707550</millis>
+  <nanos>967500</nanos>
+  <sequence>11</sequence>
+  <logger>io.JsonWriter</logger>
+  <level>INFO</level>
+  <class>io.JsonWriter</class>
+  <method>writeJsonReq</method>
+  <thread>1</thread>
+  <message>JSON writing started</message>
+</record>
+<record>
+  <date>2022-12-16T19:08:27.656241Z</date>
+  <millis>1671217707656</millis>
+  <nanos>241000</nanos>
+  <sequence>12</sequence>
+  <logger>io.JsonWriter</logger>
+  <level>INFO</level>
+  <class>io.JsonWriter</class>
+  <method>writeJsonReq</method>
+  <thread>1</thread>
+  <message>JSON writing finished successfully</message>
+</record>
+<record>
+  <date>2022-12-16T19:08:27.658239800Z</date>
+  <millis>1671217707658</millis>
+  <nanos>239800</nanos>
+  <sequence>13</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application finished</message>
+</record>
+</log>
